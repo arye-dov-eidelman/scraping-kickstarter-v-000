@@ -17,6 +17,5 @@ def create_project_hash
       :percent_funded => project.css(".funded strong")[0].text.to_i,
     }
   end
-  puts result.inspect
   result
 end
